@@ -35,7 +35,6 @@ int main() {
 		}
 	}
 	
-
 	//สร้างไฟล์
 	if (fopen_s(&fprt, "C:\\Users\\Public\\Student_score.txt", "w") != 0) {
 		printf("Error: cannot create file.\n");
@@ -56,7 +55,6 @@ int main() {
 		printf("Error: cannot open file.\n");
 		return 1;
 	}
-
 
 	//แสดงในไฟล์
 	printf("\nScores are arranged from highest to lowest\n");
